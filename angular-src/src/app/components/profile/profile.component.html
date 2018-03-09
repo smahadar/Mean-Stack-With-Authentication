@@ -1,0 +1,12 @@
+<div *ngIf='user '>
+  <h2 class="page-header">{{user.name}}</h2>
+  <ul class="list-group">
+    <li class="list-group-item"> Username: {{user.username}}</li>
+    <li class="list-group-item">Email:{{user.email}}</li>
+    <li class="list-group-item">Role:{{user.role}}</li>
+  </ul>
+ 
+  <a class="nav-link" href="#" (click)="newlink1($event)">News</a>
+  <a class="nav-link" href="#" (click)="newlink2($event)">About</a>
+
+</div>
